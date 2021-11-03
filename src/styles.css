@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 10px;
+  color: darkcyan;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
+#drop_zone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 5px dotted darkcyan;
+  width: 70%;
+  height: 70vh;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+#drop_zone p {
+  min-width: 500px;
+  text-align: center;
+}
